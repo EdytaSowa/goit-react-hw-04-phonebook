@@ -75,6 +75,8 @@ export class App extends Component {
           contacts={this.getFilteredContacts()}
           handleDelete={this.handleDelete}
         />
+
+        <p> test </p>
       </div>
     );
   }
